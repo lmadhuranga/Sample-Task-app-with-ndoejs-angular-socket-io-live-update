@@ -1,0 +1,13 @@
+{
+    "name": "angular-socket-io-im"
+  , "version": "0.0.1"
+  , "private": true
+  ,"description": "A simple instant messaging app to demo the [AngularJS Socket.IO Seed](https://github.com/btford/angular-socket-io-seed). [A walkthrough of writing the application is available on my blog](http://briantford.com/blog/angular-socket-io.html)."
+  , "dependencies": {
+      "express": "2.5.10"
+    , "jade": ">= 0.26.1"
+    , "socket.io": ">= 0.9.6"
+  }
+  ,"main": "app.js"
+  
+}

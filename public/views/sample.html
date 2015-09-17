@@ -1,0 +1,22 @@
+<h1>Sample page</h1>
+<table id="tasks_list_table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Task</th>
+            <th>Action</th>    
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="task in tasks">
+            <td></td>
+            <td>{{task.task}}</td>
+            <td></td>
+        </tr>    
+    </tbody>
+</table> 
+<!--<label for=""  style="color:gray"><i>typing</i>...</label>-->
+<img ng-show="user_typing" src="./images/chat-loader.gif">
+<br/>
+<input type="text" ng-model="new_task" ng-focus="user_typing_fun(true)" ng-blur="user_typing_fun(false)" >
+<button ng-click="add_task()" >add_task</button>
